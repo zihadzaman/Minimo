@@ -1,0 +1,263 @@
+/* fonts link start */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+/* fonts link end */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* global css start here */
+.header-wraper{
+    overflow: auto;
+}
+.pad-70{
+    padding: 70px 0px;
+}
+.mar-70{
+    margin: 70px 0px;
+}
+.nofal{
+    margin: 0px 58px;
+}
+.text-center{
+    text-align: center;
+}
+/* global css end here */
+
+/* header section start here */
+
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+
+.logo{
+    float: left;
+    width: 217px;
+}
+
+.logo img{
+    max-width: 100%;
+    display: block;
+    padding-top: 1px;
+    padding-left: 3px;
+}
+
+/* navbar start here */
+
+.navbar{
+    float: right;
+    width: 685px;
+    margin-top: 12px;
+}
+
+.menubar{
+    list-style: none;
+}
+
+.menubar li{
+    float: left;
+    margin-left: 73px;
+
+}
+
+.menubar li a{
+    font-family: 'Playfair Display', serif;
+    text-decoration: none;
+    font-size: 14pt;
+    color: #626262;
+}
+/* navbar end here */
+/* header section end here */
+
+/* hero section start hear */
+
+.hero img{
+    width: 100%;
+}
+
+/* hero section end hear */
+
+/* text area start hear */
+.teg, .comment a{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12pt;
+    margin-bottom: 17px;
+    color: #b4ad9e;
+    text-decoration: none;
+}
+
+.titel{
+    font-family: 'Playfair Display', serif;
+    font-size: 24pt;
+    color: #626262;
+    margin-bottom: 28px;
+}
+.description{
+    font-family: 'Playfair Display', serif;
+    font-size: 14pt;
+    color: #626262;
+    line-height: 1.7;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+/* text area end hear */
+
+/* blog area start here */
+.row{
+    overflow: auto;
+}
+.distence{
+    padding-top: 40px;
+}
+.post{
+    width: 45%;
+}
+.post img{
+    min-width: 100%;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.blog-titel{
+    font-size: 24pt;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+}
+
+/* blog area end here */
+
+/* newsleter area start here */
+
+.newsbg{
+    background-color: #f0f0f0;
+}
+
+/* form area star here */
+form{
+    width: 500px;
+    margin: 0px auto;
+    padding-top: 16px;
+}
+
+.form-control{
+    width: 100%;
+    height: 50px;
+    border: none;
+    background: none;
+    outline: none;
+    border-bottom: 1px solid #626262;
+    padding: 0px 4px;
+}
+
+.input-group{
+    position: relative;
+}
+
+.paper-plan{
+    position: absolute;
+    top: 33%;
+    right: 2px;
+}
+
+.paper-plan a i{
+    text-decoration: none;
+    color: #626262;
+}
+
+/* newsleter area end here */
+
+/* btn area start here */
+
+.btn{
+    padding: 15px 25px;
+    background: none;
+    font-size: 17pt;
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    border: 1px solid #626262;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: antiquewhite;
+}
+
+/* btn area start here */
+
+/* footer area start here */
+#footer_cl{
+	height: 100px;
+	background-color: #f0f0f0;
+}
+
+.wraper{
+	display: flex;
+    height: 100px;
+}
+
+.footer_left{
+    float: left;
+    height: 38px;
+    margin-left: 60px;
+    margin-top: 42px;
+}
+
+.footer_left a{
+	text-decoration: none;
+	font-family: 'Playfair Display', serif;
+	font-size: 12pt;
+	color: #626262;
+	padding-right: 8px;
+}
+
+.footer_middle{
+    margin: 0px auto;
+    height: 38px;
+    margin-top: 43px;
+    font-family: 'Playfair Display', serif;
+    font-size: 12pt;
+    color: #626262;
+}
+
+.footer_right{
+    height: 38px;
+    margin-right: 101px;
+    margin-top: 43px;
+}
+
+.footer_right  a{
+    text-decoration: none;
+    color: #626262;
+    margin-left: 15px;
+}
+
+.follow{
+    padding-right: 6px;
+    font-family: 'Playfair Display', serif;
+    font-size: 12pt;
+    color: #626262;
+}
+
+/* footer area end here */
+
+
+
+
+
+
+
+
+
+
+
